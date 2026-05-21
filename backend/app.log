@@ -1,0 +1,44 @@
+2026-05-20 16:22:51,012 - genshin-api - INFO - 启动服务: Genshin/Honkai Star Rail API v2.0.0
+2026-05-20 16:22:52,007 - asyncio - DEBUG - Using selector: SelectSelector
+2026-05-20 16:23:57,381 - asyncio - DEBUG - Using selector: SelectSelector
+2026-05-20 17:19:34,514 - asyncio - DEBUG - Using selector: SelectSelector
+2026-05-21 09:23:10,058 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:23:10,074 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:23:10,209 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:23:10,225 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:38:28,529 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:38:28,529 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:38:28,594 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:38:28,597 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:39:25,543 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:39:25,546 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:39:25,683 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:39:25,684 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:48:26,374 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:48:26,375 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:48:26,450 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:48:26,451 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:56:27,733 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:56:27,734 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:56:27,739 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:56:27,739 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:56:40,645 - genshin-api - INFO - 获取原神卡池信息
+2026-05-21 09:56:40,666 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.hakush.in:443
+2026-05-21 09:56:40,960 - genshin-api - ERROR - Hakushin API获取原神卡池失败: HTTPSConnectionPool(host='api.hakush.in', port=443): Max retries exceeded with url: /genshin/banner (Caused by NameResolutionError("HTTPSConnection(host='api.hakush.in', port=443): Failed to resolve 'api.hakush.in' ([Errno 11001] getaddrinfo failed)"))
+2026-05-21 09:56:40,961 - genshin-api - WARNING - Hakushin API失败，使用备用数据
+2026-05-21 09:57:57,884 - genshin-api - INFO - 获取原神卡池信息
+2026-05-21 09:57:57,888 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.hakush.in:443
+2026-05-21 09:57:57,967 - genshin-api - ERROR - Hakushin API获取原神卡池失败: HTTPSConnectionPool(host='api.hakush.in', port=443): Max retries exceeded with url: /genshin/banner (Caused by NameResolutionError("HTTPSConnection(host='api.hakush.in', port=443): Failed to resolve 'api.hakush.in' ([Errno 11001] getaddrinfo failed)"))
+2026-05-21 09:57:57,972 - genshin-api - WARNING - Hakushin API失败，使用备用数据
+2026-05-21 09:57:57,994 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:57:57,994 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
+2026-05-21 09:57:58,011 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:57:58,016 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:59:34,192 - genshin-api - INFO - 获取原神卡池信息
+2026-05-21 09:59:34,197 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.hakush.in:443
+2026-05-21 09:59:34,415 - genshin-api - ERROR - Hakushin API获取原神卡池失败: HTTPSConnectionPool(host='api.hakush.in', port=443): Max retries exceeded with url: /genshin/banner (Caused by NameResolutionError("HTTPSConnection(host='api.hakush.in', port=443): Failed to resolve 'api.hakush.in' ([Errno 11001] getaddrinfo failed)"))
+2026-05-21 09:59:34,416 - genshin-api - WARNING - Hakushin API失败，使用备用数据
+2026-05-21 09:59:34,440 - genshin-api - INFO - 获取原神角色数据
+2026-05-21 09:59:34,441 - genshin-api - ERROR - 获取原神角色数据失败: type object 'EnkaService' has no attribute 'fetch_genshin_characters'
+2026-05-21 09:59:34,455 - genshin-api - INFO - 获取星穹铁道角色数据
+2026-05-21 09:59:34,456 - genshin-api - ERROR - 获取星穹铁道角色数据失败: type object 'EnkaService' has no attribute 'fetch_starrail_characters'
