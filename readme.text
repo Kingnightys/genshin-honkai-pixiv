@@ -1,0 +1,56 @@
+genshin-honkai-pixiv/
+├── backend/
+│   ├── main.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── logger.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── character.py
+│   │   └── banner.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── enka_service.py      # 增强版，支持玩家数据查询
+│   │   ├── hakushin_service.py
+│   │   ├── hoyoverse_service.py
+│   │   └── backup_service.py
+│   └── routes/
+│       ├── __init__.py        # 路由模块
+│       ├── characters.py
+│       ├── banner.py
+│       ├── activities.py
+│       ├── news.py
+│       └── player.py            # 新增：UID查询路由              # 示例数据初始化
+└── frontend/                  # Vue3 + TypeScript 前端
+    ├── package.json
+    ├── vite.config.ts
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    ├── tailwind.config.js
+    ├── postcss.config.js
+    ├── index.html
+    └── src/
+        ├── main.ts
+        ├── style.css
+        ├── types/
+        │   └── index.ts        # TypeScript 类型定义
+        ├── api/
+        │   └── index.ts        # API 服务封装
+        ├── components/
+        │   ├── Navbar.vue           # 导航栏
+        │   ├── HeroSection.vue      # 首页英雄区
+        │   ├── FeatureCards.vue     # 功能入口卡片
+        │   ├── CharactersSection.vue # 角色展览馆
+        │   ├── MusicSection.vue     # 音乐馆
+        │   ├── PvSection.vue        # PV展览区
+        │   ├── FanArtSection.vue    # 同人汇
+        │   ├── MapSection.vue       # 地图打卡
+        │   ├── AnimeSection.vue     # 番剧馆
+        │   ├── MessageSection.vue   # 留言板
+        │   ├── PlayerSearch.vue     # 新增：UID查询组件
+        │   ├── ActivitiesSection.vue # 新增：活动信息组件
+        │   ├── NewsSection.vue      # 新增：资讯信息组件
+        │   └── PvSection.vue
+        │       └── Footer.vue           # 页脚
+        └── App.vue              # 主应用组件
