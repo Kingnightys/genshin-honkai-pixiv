@@ -1,5 +1,8 @@
 from fastapi import APIRouter, HTTPException
 from typing import Dict, List
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from services.enka_service import EnkaService
 from utils.logger import logger
 

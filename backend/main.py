@@ -1,6 +1,11 @@
+# d:\AiCodeProject\genshin-honkai-pixiv\backend\main.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes import characters, banner, activities, news, player, music, messages, auth
+from database import engine, Base
+
+# 创建数据库表
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Genshin/Honkai API", version="2.0.0")
 
@@ -23,4 +28,4 @@ app.include_router(auth.router)
 
 @app.get("/")
 async def root():
-    return {"message": "API is running"}
+    return {"message": "Genshin/Honkai API is running"}
